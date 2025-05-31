@@ -38,6 +38,7 @@ h1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
     width: 65vw;
     max-width: 600px;
     font-size: 1.56rem;
@@ -158,4 +159,31 @@ input[type="checkbox"] {
 }
 .submit-button:hover {
     background-color: hsl(237, 45%, 30%);
+}
+
+/* about the author style \/ */
+
+.about-div {
+    width: 70vw;
+    border-radius: 10px;
+    background-color: hsl(237, 45%, 9%);
+    color: hsl(41, 55%, 48%);
+    font-size: 1.5rem;
+    margin: auto;
+    margin-top: 0px;
+    padding: 0.5em;
+}
+
+.about-div p {
+    display: block;
+    margin-top: 20px;
+    color: hsl(41, 55%, 36%);
+}
+
+.about-h2 {
+    color: hsl(41, 55%, 48%);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-size: 2rem; 
 }
